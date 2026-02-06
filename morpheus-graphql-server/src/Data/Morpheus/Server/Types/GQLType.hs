@@ -33,6 +33,8 @@ module Data.Morpheus.Server.Types.GQLType
     fieldDirective,
     fieldDirective',
     typeDirective,
+    WITH_DERIVING,
+    PARAM
   )
 where
 
