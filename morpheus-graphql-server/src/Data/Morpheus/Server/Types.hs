@@ -11,10 +11,7 @@
 
 -- | GQL Types
 module Data.Morpheus.Server.Types
-  ( GQLType
-      ( KIND,
-        directives
-      ),
+  ( GQLType (..),
     EncodeScalar (..),
     EncodeWrapper (..),
     DecodeScalar (..),
