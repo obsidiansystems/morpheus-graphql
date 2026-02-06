@@ -38,6 +38,42 @@ library:
   - Data.Morpheus.Server.CodeGen.Internal
   - Data.Morpheus.Server.Resolvers
   - Data.Morpheus.Server.Types
+  - Data.Morpheus.Generic
+  - Data.Morpheus.Generic.Cons
+  - Data.Morpheus.Generic.Fields
+  - Data.Morpheus.Generic.Gmap
+  - Data.Morpheus.Generic.GRep
+  - Data.Morpheus.Generic.GScan
+  - Data.Morpheus.Generic.Proxy
+  - Data.Morpheus.Generic.RefType
+  - Data.Morpheus.Server.Deriving.App
+  - Data.Morpheus.Server.Deriving.Internal.Directive
+  - Data.Morpheus.Server.Deriving.Internal.Resolver
+  - Data.Morpheus.Server.Deriving.Internal.Type
+  - Data.Morpheus.Server.Deriving.Internal.Value
+  - Data.Morpheus.Server.Deriving.Kinded.Arguments
+  - Data.Morpheus.Server.Deriving.Kinded.Channels
+  - Data.Morpheus.Server.Deriving.Kinded.NamedResolver
+  - Data.Morpheus.Server.Deriving.Kinded.NamedResolverFun
+  - Data.Morpheus.Server.Deriving.Kinded.Resolver
+  - Data.Morpheus.Server.Deriving.Kinded.Type
+  - Data.Morpheus.Server.Deriving.Kinded.Value
+  - Data.Morpheus.Server.Deriving.Resolvers
+  - Data.Morpheus.Server.Deriving.Schema
+  - Data.Morpheus.Server.Deriving.Utils.GScan
+  - Data.Morpheus.Server.Deriving.Utils.Kinded
+  - Data.Morpheus.Server.Deriving.Utils.Types
+  - Data.Morpheus.Server.Deriving.Utils.Use
+  - Data.Morpheus.Server.Playground
+  - Data.Morpheus.Server.Types.DirectiveDefinitions
+  - Data.Morpheus.Server.Types.Directives
+  - Data.Morpheus.Server.Types.GQLType
+  - Data.Morpheus.Server.Types.Internal
+  - Data.Morpheus.Server.Types.Kind
+  - Data.Morpheus.Server.Types.NamedResolvers
+  - Data.Morpheus.Server.Types.TypeName
+  - Data.Morpheus.Server.Types.Types
+  - Data.Morpheus.Server.Types.Visitors
 tests:
   morpheus-graphql-server-test:
     main: Spec.hs

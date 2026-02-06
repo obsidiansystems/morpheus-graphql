@@ -314,7 +314,6 @@ library
       Data.Morpheus.Server.CodeGen.Internal
       Data.Morpheus.Server.Resolvers
       Data.Morpheus.Server.Types
-  other-modules:
       Data.Morpheus.Generic
       Data.Morpheus.Generic.Cons
       Data.Morpheus.Generic.Fields
@@ -351,6 +350,7 @@ library
       Data.Morpheus.Server.Types.TypeName
       Data.Morpheus.Server.Types.Types
       Data.Morpheus.Server.Types.Visitors
+  other-modules:
       Paths_morpheus_graphql_server
   hs-source-dirs:
       src
